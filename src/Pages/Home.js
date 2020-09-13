@@ -94,7 +94,7 @@ If you want to grab a coffee, meet for the lunch, have a video call, or anything
                   fontSize:40,
                   textAlign:'center'}}>
       Contact Information:<br></br><br></br>
-      <div style={{fontSize:30}}>Email: mail@cyriellealbert.fr <br></br><br></br>
+      <div style={{fontSize:30}}>Email: cyriellehelenealbert@gmail.com <br></br><br></br>
       Phone number: +33635121409</div>
 
     </div>
