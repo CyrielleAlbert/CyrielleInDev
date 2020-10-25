@@ -31,18 +31,17 @@ class TelegramBot extends Component {
         </NavLink>
         <div
           style={{
-            paddingTop:50,
+            paddingTop: 50,
             fontSize: 30,
             fontFamily: "Montserrat",
             paddingRight: 5,
             paddingLeft: 5,
             marginTop: 50,
-            paddingBottom:100,
-
+            paddingBottom: 100,
           }}
         >
           About the project:
-          <div style={{fontSize:20,paddingTop:20}}>
+          <div style={{ fontSize: 20, paddingTop: 20 }}>
             <div>
               The telegram bots are part of a project that I called "One weekend
               - One project".
@@ -94,7 +93,7 @@ class TelegramBot extends Component {
             }}
           >
             <div style={{ fontSize: 35, paddingBottom: 10 }}>
-              MasterChef Bot
+              News Master Bot
             </div>
             <div style={{ fontSize: 20, textAlign: "left" }}>
               <div>What is it?</div>
@@ -138,7 +137,7 @@ class TelegramBot extends Component {
             }}
           >
             <div style={{ fontSize: 35, paddingBottom: 10 }}>
-              News Master Bot
+              Master Chef Bot
             </div>
             <div style={{ fontSize: 20, textAlign: "left" }}>
               <div>What is it?</div>
