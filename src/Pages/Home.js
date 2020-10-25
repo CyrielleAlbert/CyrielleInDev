@@ -85,9 +85,11 @@ If you want to grab a coffee, meet for the lunch, have a video call, or anything
             boxShadow: " 3px 3px 3px #C4C2C0"
 
       }}>
+        <NavLink to='/Blog'>
         <img  src={writings}
             style={{borderRadius:12.5,
                     width:'100%'}}/>
+                    </NavLink>
       </div> 
     <div style={{ paddingTop:50,
                   fontFamily:'Montserrat',
