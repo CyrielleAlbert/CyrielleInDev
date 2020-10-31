@@ -1,4 +1,6 @@
 # How working in a young Startup made me gain the equivalent of 5 years of experience.
+### by Cyrielle Albert, September 20th, 2020
+&nbsp
 
 I have been working in a Startup for exactly 17 months and I can assure you that I have learned more during these 1.5 years than during the 3 years of my bachelor.
 
@@ -9,8 +11,10 @@ So I decided to pause my study to work full time for a bit more than o
 If you have never worked in a Startup, you probably have in mind the cliché of the startup environment which includes Ping Pong table, flexible desks, sweaters as the dress code and a lot of beers after work. Well, you are not totally wrong.
 
 If you've been part of one before, you know that besides that, is hidden a lot of extra hours, cry (maybe) and hard times. For me, that's why I learned so much.
+&nbsp
 
-# ONE JOB, SEVERALS TITLES
+## One job, severals titles
+![Alt Text](https://media.giphy.com/media/Nx85vtTY70T3W/giphy.gif)
 
 I realised that the job title didn't put me in a box.
 
@@ -24,7 +28,9 @@ Some things were really new, so I had to put myself in a position where
 
 It was so enriching to see all part of the product development to understand how to build my part.
 
-# LOSERS DON'T EVEN TRY
+## Losers don't even try
+![Alt Text](https://media.giphy.com/media/tK5JkmMAPveNO/giphy.gif)
+
 
 An important mindset I switched to, when I started working, is to commit to tasks even if I had no idea on how to do it.
 
@@ -42,7 +48,8 @@ It made me face so much difficulty. I spent so much hour on StackOverFlow�
 
 If I had never decided to work on new things, I would never have learned so much. The only way to loose, it to decide to stay in the comfort zone. Now, I would say, that before working in a startup, you need to be prepared for working on new things.
 
-# **WORKING FAST**
+## Working fast
+![Alt Text](https://media.giphy.com/media/icIppFtD6AF1lXtSdo/giphy.gif)
 
 Working in a startup usually means working on an innovative product.
 
@@ -59,5 +66,7 @@ To be honest, the first months were the hardest. Then I am not sure if I�
 When you have no choice but to work fast and provide something concrete, it's hard at the beginning but you figure out a way  to do so.
 
 It's a skill I am really proud to have and show now.
+
+## Conclusion
 
 These years have been for me, the best way to realise the skills I developed during my study and finally use those on a business project. It's been tiring I can't deny it but it pushed me so out of my comfort zone than I learned unexpected things, and gained confidence for the future. Even if I did not mentioned them, it would not have been possible without the Team I worked with, a source of support and motivation every single day.
