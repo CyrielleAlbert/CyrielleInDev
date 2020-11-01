@@ -1,0 +1,20 @@
+{
+    "telegramBots": {
+        "title": "Telegram Bots",
+        "tags":["Code"],
+        "pathMd": "/Projects/telegramBots.md",
+        "imagePath":"/Images/telegramBots.png"
+    },
+    "lineFollowingRobot":{
+        "title": "Line Following Robots",
+        "tags":["Electronics","Code"],
+        "pathMd": "/Projects/lineFollowingRobot.md",
+        "imagePath":"/Images/lineFollowingRobot.png"
+    },
+    "useby":{
+        "title": "Useby - Startup Project",
+        "tags":["Startup"],
+        "pathMd": "/Projects/useby.md",
+        "imagePath":"/Images/useby.png"
+    }
+}

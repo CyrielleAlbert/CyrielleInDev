@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import { NavLink } from "react-router-dom";
-import Bots from "./Projects/Bots.png";
-import Robot from "./Projects/Robot.png";
-import Useby from "./Projects/useby.png";
+import ProjectsInfo from "./Projects/ProjectsInfo.json";
 
 class Projects extends Component {
   render() {
@@ -52,95 +50,50 @@ class Projects extends Component {
             </p>
           </p>
         </div>
-        <div
-          style={{ flexDirection: "row", display: "flex", paddingBottom: 100 }}
-        >
-          <div
-            style={{
-              //borderRadius: 12.5,
-              width: "32%",
-              height: "auto",
-              marginLeft: "15%",
-              marginRight: "3%",
-              boxShadow: " 3px 3px 3px 2px #C4C2C0",
-            }}
-          >
-            <NavLink
-              to="/Project-TelegramBot"
-              style={{ textDecoration: "none" }}
-            >
-              <img
-                src={Bots}
-                style={{
-                  //borderRadius: 12.5,
-                  width: "100%",
-                  position: "relative",
+        <div style={{ paddingBottom: 300 }}>
+          {Object.keys(ProjectsInfo).map((id) => {
+            console.log(id)
+            return (
+              <NavLink
+                to={{
+                  pathname: "/Projects/" +  id ,
                 }}
-              />
-            </NavLink>
-          </div>
-
-          <div
-            style={{
-              //borderRadius: 12.5,
-              width: "32%",
-              height: "auto",
-              marginLeft: "3%",
-              marginRight: "15%",
-              boxShadow: " 3px 3px 3px 2px #C4C2C0",
-            }}
-          >
-            <img
-              src={Robot}
-              style={{
-                //borderRadius: 12.5,
-                width: "100%",
-                position: "relative",
-              }}
-            />
-          </div>
-        </div>
-        <div
-          style={{ flexDirection: "row", display: "flex", paddingBottom: 100 }}
-        >
-          <div
-            style={{
-              //borderRadius: 12.5,
-              width: "32%",
-              height: "auto",
-              marginLeft: "15%",
-              marginRight: "3%",
-              boxShadow: " 3px 3px 3px 2px #C4C2C0",
-            }}
-          >
-            <img
-              src={Useby}
-              style={{
-                //borderRadius: 12.5,
-                width: "100%",
-                position: "relative",
-              }}
-            />
-          </div>
-          <div
-            style={{
-              //borderRadius: 12.5,
-              width: "32%",
-              height: "auto",
-              marginLeft: "3%",
-              marginRight: "15%",
-              backgroundColor: "#F2F2F2",
-              boxShadow: " 3px 3px 3px 2px #C4C2C0",
-              color: "grey",
-              textAlign: "center",
-              fontSize: 60,
-              fontFamily: "Montserrat",
-            }}
-          >
-            {" "}
-            <br></br>
-            More to come...
-          </div>
+                style={{ textDecoration: "none" }}
+              >
+                <div
+                  style={{
+                    flexDirection: "row",
+                    display: "flex",
+                    marginRight: "20%",
+                    marginLeft: "20%",
+                    marginTop: 100,
+                    boxShadow: "0px 0px 10px #C4C2C0",
+                    marginBottom: 100,
+                  }}
+                >
+                  <div style={{ width: "60%", height: "auto" }}>
+                    <img src={ProjectsInfo[id].imagePath} width={"100%"} />
+                  </div>
+                  <div
+                    style={{
+                      width: "40%",
+                      height: "auto",
+                      color: "black",
+                      fontSize: 40,
+                      fontFamily: "Montserrat",
+                      fontWeight: "bold",
+                      textAlign: "center",
+                      alignItems:'center',
+                      justifyContent:'center',
+                      backgroundColor:'white'
+                    }}
+                  >
+                    {ProjectsInfo[id].title}
+                  </div>
+                </div>
+              </NavLink>
+            );
+          })}
         </div>
         <div
           style={{

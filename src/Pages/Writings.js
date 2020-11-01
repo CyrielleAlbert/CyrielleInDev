@@ -34,12 +34,7 @@ class Writings extends Component {
               return (
                 <NavLink
                   to={{
-                    pathname: "/Blog/startupLife",
-                    aboutProps: {
-                      title: ArticlesInfo[id].title,
-                      author: ArticlesInfo[id].author,
-                      createdAt: ArticlesInfo[id].createdAt,
-                    },
+                    pathname: "/Blog/"+{id},
                   }}
                   style={{ textDecoration: "none" }}
                 >
