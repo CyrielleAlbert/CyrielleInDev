@@ -61,11 +61,11 @@ class Writings extends Component {
                     height: "auto",
                     fontFamily: "Times New Roman",
                     fontSize: 30,
+                    paddingRight:15,
+                    paddingLeft:15,
                     color: "#004C52",
                     fontWeight: "bold",
-                    textAlign: "center",
-                    alignItems: "center",
-                    justifyContent: "center",
+                    textAlign: "justify",
                     backgroundColor: "#FFFDFA",
                     marginTop: 20,
                   }}
@@ -76,7 +76,7 @@ class Writings extends Component {
                       color: "grey",
                       fontSize: 15,
                       fontFamily: "Montserrat",
-                      textAlign: "right",
+                      textAlign: "center",
                       marginTop: 20,
                     }}
                   >
