@@ -29,18 +29,69 @@ class Writings extends Component {
           </div>
         </NavLink>
         {Object.keys(ArticlesInfo).map((id) => {
-          return (
-            <NavLink
-              to={{
-                pathname: "/Blog/startupLife",
-                aboutProps: {
-                  title: ArticlesInfo[id].title,
-                  author: ArticlesInfo[id].author,
-                  createdAt: ArticlesInfo[id].createdAt,
-                },
-              }}
-              style={{ textDecoration: "none" }}
-            >
+          if (Date.now() > new Date(ArticlesInfo[id].createdAt)) {
+            return (
+              <NavLink
+                to={{
+                  pathname: "/Blog/startupLife",
+                  aboutProps: {
+                    title: ArticlesInfo[id].title,
+                    author: ArticlesInfo[id].author,
+                    createdAt: ArticlesInfo[id].createdAt,
+                  },
+                }}
+                style={{ textDecoration: "none" }}
+              >
+                <div
+                  style={{
+                    flexDirection: "row",
+                    display: "flex",
+                    marginRight: "20%",
+                    marginLeft: "20%",
+                    marginTop: 200,
+                    boxShadow: "0px 0px 10px #C4C2C0",
+                    marginBottom: 200,
+                  }}
+                >
+                  <div style={{ width: "60%", height: "auto" }}>
+                    <img src={ArticlesInfo[id].imagePath} width={"100%"} />
+                  </div>
+                  <div
+                    style={{
+                      width: "40%",
+                      height: "auto",
+                      fontFamily: "Times New Roman",
+                      fontSize: 30,
+                      paddingRight: 15,
+                      paddingLeft: 15,
+                      color: "#004C52",
+                      fontWeight: "bold",
+                      textAlign: "justify",
+                      backgroundColor: "#FFFDFA",
+                      marginTop: 20,
+                    }}
+                  >
+                    {ArticlesInfo[id].title}
+                    <div
+                      style={{
+                        color: "grey",
+                        fontSize: 15,
+                        fontFamily: "Montserrat",
+                        textAlign: "center",
+                        marginTop: 20,
+                      }}
+                    >
+                      by {ArticlesInfo[id].author}{" "}
+                      <div style={{ fontSize: 10 }}>
+                        {ArticlesInfo[id].createdAt}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </NavLink>
+            );
+          } else {
+            return (
               <div
                 style={{
                   flexDirection: "row",
@@ -61,8 +112,8 @@ class Writings extends Component {
                     height: "auto",
                     fontFamily: "Times New Roman",
                     fontSize: 30,
-                    paddingRight:15,
-                    paddingLeft:15,
+                    paddingRight: 15,
+                    paddingLeft: 15,
                     color: "#004C52",
                     fontWeight: "bold",
                     textAlign: "justify",
@@ -70,25 +121,11 @@ class Writings extends Component {
                     marginTop: 20,
                   }}
                 >
-                  {ArticlesInfo[id].title}
-                  <div
-                    style={{
-                      color: "grey",
-                      fontSize: 15,
-                      fontFamily: "Montserrat",
-                      textAlign: "center",
-                      marginTop: 20,
-                    }}
-                  >
-                    by {ArticlesInfo[id].author}{" "}
-                    <div style={{ fontSize: 10 }}>
-                      {ArticlesInfo[id].createdAt}
-                    </div>
-                  </div>
+                  {"New article coming on "+ ArticlesInfo[id].createdAt}
                 </div>
               </div>
-            </NavLink>
-          );
+            );
+          }
         })}
       </div>
     );
