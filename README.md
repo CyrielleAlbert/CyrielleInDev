@@ -1,5 +1,16 @@
-Cyrielle in Dev
+# Cyrielle In Dev
+
+## GOALS:
+1. Learn React.js
+1. Online presence
+1. Blog: #WomenInTech & Software Engineer Experience
+1. In the future: portfolio for Clients
+
 ### TO DO:
-1. Add Google Analytics
-1. Add Projects
-1. Add Writings
+- [x] Add Google Analytics
+- [x] Add Writings
+- [ ] Add Projects
+- [ ] Review design
+- [ ] Add LarsKarbo
+- [ ] Add animations
+
