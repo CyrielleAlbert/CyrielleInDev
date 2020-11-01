@@ -13,7 +13,7 @@ class Projects extends Component {
             style={{
               color: "#FFFDFA",
               fontFamily: "Times new Roman",
-              color: "#004C52",
+              color: "black",
               fontSize: 80,
               textAlign: "center",
             }}
@@ -34,13 +34,15 @@ class Projects extends Component {
           style={{
             fontSize: 20,
             fontFamily: "Montserrat",
-            paddingLeft: "5%",
+            paddingLeft: "15%",
+            paddingRight: "15%",
+            textAlign: "justify",
             paddingTop: 100,
           }}
         >
-          <p style={{ fontSize: 40 }}>
+          <p style={{ fontSize: 30 }}>
             During my sparetime, I love...<br></br>
-            <p style={{ fontSize: 30 }}>
+            <p style={{ fontSize: 20 }}>
               ...working on my personal projects.<br></br>
               ...creating things that can make my life easier.<br></br>
               ...coding and building electronics devices.
@@ -53,43 +55,45 @@ class Projects extends Component {
         <div
           style={{ flexDirection: "row", display: "flex", paddingBottom: 100 }}
         >
-          
-            <div
-              style={{
-                borderRadius: 12.5,
-                width: "40%",
-                height: "auto",
-                marginLeft: "5%",
-                marginRight: "5%",
-                backgroundColor: "white",
-                boxShadow: " 3px 3px 3px #C4C2C0",
-              }}
-            ><NavLink to="/Project-TelegramBot" style={{ textDecoration: "none" }}>
+          <div
+            style={{
+              //borderRadius: 12.5,
+              width: "32%",
+              height: "auto",
+              marginLeft: "15%",
+              marginRight: "3%",
+              boxShadow: " 3px 3px 3px 2px #C4C2C0",
+            }}
+          >
+            <NavLink
+              to="/Project-TelegramBot"
+              style={{ textDecoration: "none" }}
+            >
               <img
                 src={Bots}
                 style={{
-                  borderRadius: 12.5,
+                  //borderRadius: 12.5,
                   width: "100%",
                   position: "relative",
                 }}
-              /></NavLink>
-            </div>
-          
+              />
+            </NavLink>
+          </div>
+
           <div
             style={{
-              borderRadius: 12.5,
-              width: "40%",
+              //borderRadius: 12.5,
+              width: "32%",
               height: "auto",
-              marginLeft: "5%",
-              marginRight: "5%",
-              backgroundColor: "white",
-              boxShadow: " 3px 3px 3px #C4C2C0",
+              marginLeft: "3%",
+              marginRight: "15%",
+              boxShadow: " 3px 3px 3px 2px #C4C2C0",
             }}
           >
             <img
               src={Robot}
               style={{
-                borderRadius: 12.5,
+                //borderRadius: 12.5,
                 width: "100%",
                 position: "relative",
               }}
@@ -101,23 +105,39 @@ class Projects extends Component {
         >
           <div
             style={{
-              borderRadius: 12.5,
-              width: "40%",
+              //borderRadius: 12.5,
+              width: "32%",
               height: "auto",
-              marginLeft: "5%",
-              marginRight: "5%",
-              backgroundColor: "white",
-              boxShadow: " 3px 3px 3px #C4C2C0",
+              marginLeft: "15%",
+              marginRight: "3%",
+              boxShadow: " 3px 3px 3px 2px #C4C2C0",
             }}
           >
             <img
               src={Useby}
               style={{
-                borderRadius: 12.5,
+                //borderRadius: 12.5,
                 width: "100%",
                 position: "relative",
               }}
             />
+          </div>
+          <div
+            style={{
+              //borderRadius: 12.5,
+              width: "32%",
+              height: "auto",
+              marginLeft: "3%",
+              marginRight: "15%",
+              backgroundColor: "#F2F2F2",
+              boxShadow: " 3px 3px 3px 2px #C4C2C0",
+              color: "grey",
+              textAlign:'center',
+              fontSize:60,
+              fontFamily:'Montserrat'
+            }}
+          > <br></br>
+            More to come...
           </div>
         </div>
       </div>

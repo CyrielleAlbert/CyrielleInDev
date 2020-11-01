@@ -50,7 +50,7 @@ class Articles extends Component {
             style={{
               color: "#FFFDFA",
               fontFamily: "Times new Roman",
-              color: "#004C52",
+              color: "black",
               fontSize: 80,
               textAlign: "center",
             }}
@@ -71,7 +71,7 @@ class Articles extends Component {
           style={{
             padding: 10,
             backgroundColor: "white",
-            boxShadow: " 10px 10px 10px #C4C2C0",
+            boxShadow: " 10px 10px 10px 5px #C4C2C0",
             marginLeft: "20%",
             marginRight: "20%",
             marginTop: 50,

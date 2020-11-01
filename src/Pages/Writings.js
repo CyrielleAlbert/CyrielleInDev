@@ -11,7 +11,7 @@ class Writings extends Component {
             style={{
               color: "#FFFDFA",
               fontFamily: "Times new Roman",
-              color: "#004C52",
+              color: "black",
               fontSize: 80,
               textAlign: "center",
             }}
@@ -64,7 +64,7 @@ class Writings extends Component {
                       fontSize: 30,
                       paddingRight: 15,
                       paddingLeft: 15,
-                      color: "#004C52",
+                      color: "black",
                       fontWeight: "bold",
                       textAlign: "justify",
                       backgroundColor: "#FFFDFA",
@@ -114,7 +114,7 @@ class Writings extends Component {
                     fontSize: 30,
                     paddingRight: 15,
                     paddingLeft: 15,
-                    color: "#004C52",
+                    color: "black",
                     fontWeight: "bold",
                     textAlign: "justify",
                     backgroundColor: "#FFFDFA",
