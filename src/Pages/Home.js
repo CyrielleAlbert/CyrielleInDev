@@ -232,6 +232,17 @@ class Home extends Component {
             }}
           ></div>
         </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            color: "grey",
+            paddingBottom: 50,
+          }}
+        >
+          {" "}
+          © Cyrielle Albert 2020 All rights reserved{" "}
+        </div>
       </div>
     );
   }

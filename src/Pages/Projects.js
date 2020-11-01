@@ -132,13 +132,26 @@ class Projects extends Component {
               backgroundColor: "#F2F2F2",
               boxShadow: " 3px 3px 3px 2px #C4C2C0",
               color: "grey",
-              textAlign:'center',
-              fontSize:60,
-              fontFamily:'Montserrat'
+              textAlign: "center",
+              fontSize: 60,
+              fontFamily: "Montserrat",
             }}
-          > <br></br>
+          >
+            {" "}
+            <br></br>
             More to come...
           </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            color: "grey",
+            paddingBottom: 50,
+          }}
+        >
+          {" "}
+          © Cyrielle Albert 2020 All rights reserved{" "}
         </div>
       </div>
     );
