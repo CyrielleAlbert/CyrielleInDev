@@ -10,9 +10,10 @@ class Writings extends Component {
           <div
             style={{
               color: "#FFFDFA",
-              fontFamily: "Times new Roman",
+              fontFamily: "Montserrat",
               color: "black",
-              fontSize: 80,
+              fontSize: 60,
+              fontWeight:'bold',
               textAlign: "center",
             }}
           >
@@ -21,6 +22,7 @@ class Writings extends Component {
               style={{
                 fontFamily: "Montserrat",
                 fontSize: 30,
+                fontWeight:'lighter',
                 color: "#000000",
               }}
             >

@@ -15,9 +15,10 @@ class Home extends Component {
         <div
           style={{
             color: "#FFFDFA",
-            fontFamily: "Times new Roman",
+            fontFamily: "Montserrat",
             color: "black",
-            fontSize: 80,
+            fontSize: 60,
+            fontWeight:'bold',
             textAlign: "center",
           }}
         >
@@ -26,6 +27,7 @@ class Home extends Component {
             style={{
               fontFamily: "Montserrat",
               fontSize: 30,
+              fontWeight:'lighter',
               color: "#000000",
             }}
           >
@@ -158,7 +160,7 @@ class Home extends Component {
               width: "32%",
               flexDirection: "column",
               display: "flex",
-              fontFamily: "Times new Roman",
+              fontFamily: "Montserrat",
               fontSize: 30,
               textAlign: "center",
               paddingLeft: "15%",
@@ -201,7 +203,7 @@ class Home extends Component {
               width: "32%",
               flexDirection: "column",
               display: "flex",
-              fontFamily: "Times new Roman",
+              fontFamily: "Montserrat",
               fontSize: 30,
               textAlign: "center",
             }}
@@ -226,7 +228,7 @@ class Home extends Component {
               width: "0%",
               flexDirection: "column",
               display: "flex",
-              fontFamily: "Times new Roman",
+              fontFamily: "Montserrat",
               fontSize: 40,
               textAlign: "center",
             }}
