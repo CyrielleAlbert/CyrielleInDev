@@ -23,31 +23,51 @@ class Projects extends Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "#FFFDFA" }}>
-        <NavLink to="/" style={{ textDecoration: "none" }}>
-          <div
+      <div style={{ backgroundColor: "#F5F5F5" }}>
+        <div
+          style={{
+            padding: 10,
+            font: "Montserrat",
+            fontSize: 30,
+            color: "black",
+            width: "100%",
+            minHeight: "6vh",
+            boxSizing: "border-box",
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "row",
+            backgroundColor: "#F5F5F5",
+            transition: "all 0.7s ease-in",
+            letterSpacing: 5,
+            position: "fixed",
+            boxShadow: '4px 4px 30px rgba(0, 0, 0, 0.25)'
+
+          }}
+        >
+          <NavLink
+            to="/"
             style={{
-              color: "#FFFDFA",
-              fontFamily: "MontSerrat",
-              fontWeight: "bold",
+              width: "50%",
+              textDecoration: "none",
               color: "black",
-              fontSize: 60,
-              textAlign: "center",
+              fontWeight: "bolder",
             }}
           >
-            Cyrielle Albert
-            <div
-              style={{
-                fontFamily: "Montserrat",
-                fontSize: 30,
-                fontWeight: "lighter",
-                color: "#000000",
-              }}
-            >
-              Software Engineer | Music passionate | Home projects enthusiast
-            </div>
-          </div>
-        </NavLink>
+            👩🏻‍💻Cyrielle Albert
+          </NavLink>
+          <NavLink
+            to="/Projects"
+            style={{ width: "25%", textDecoration: "none", color: "black" }}
+          >
+            🧠Projects
+          </NavLink>
+          <NavLink
+            to="/Blog"
+            style={{ width: "25%", textDecoration: "none", color: "black" }}
+          >
+            📝Blog
+          </NavLink>
+        </div>
         <div
           style={{
             fontSize: 20,
