@@ -80,7 +80,7 @@ class Home extends Component {
               new Technologies.  I worked on Neurosciences and developed
               neurofeedback algorithms for sleep, using diverse EEG headset.{" "}<br></br><br></br>
               {
-                "Deep inside, I’ve always loved building stuff and since I started my study, my main tools are Raspberry & Arduino."
+                "Deep inside, I’ve always loved building stuff and since I started my study, my main tools are Raspberry, Arduino & my computers."
               }<br></br><br></br>
               {
                 "I was more of a Python fan few months ago, working on Data sciences & signal processing but I’ve recently been attracted by web & app development and started developing in Javascript with ReactJS, NodeJS & React Native."
