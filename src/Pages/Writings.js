@@ -87,7 +87,7 @@ class Writings extends Component {
                       marginLeft: "20%",
                       marginTop: 200,
                       boxShadow: "0px 0px 10px #C4C2C0",
-                      marginBottom: 200,
+                      marginBottom: 50,
                     }}
                   >
                     <div style={{ width: "60%", height: "auto" }}>
@@ -135,9 +135,8 @@ class Writings extends Component {
                     display: "flex",
                     marginRight: "20%",
                     marginLeft: "20%",
-                    marginTop: 200,
                     boxShadow: "0px 0px 10px #C4C2C0",
-                    marginBottom: 200,
+                    marginBottom: 50,
                   }}
                 >
                   <div style={{ width: "60%", height: "auto" }}>
