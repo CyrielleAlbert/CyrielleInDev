@@ -104,7 +104,7 @@ class Writings extends Component {
                         color: "black",
                         fontWeight: "bold",
                         textAlign: "justify",
-                        backgroundColor: "#FFFDFA",
+                        backgroundColor: "#F5F5F5",
                         marginTop: 20,
                       }}
                     >
