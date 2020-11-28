@@ -78,9 +78,9 @@ class Home extends Component {
             <p>
               I am an electronics & software engineer and I am passionate with
               new Technologies.  I worked on Neurosciences and developed
-              neurofeedback algorithms for sleep, using diverse EEG headset.{" "}<br></br><br></br>
+              neurofeedback algorithms for sleep, using EEG headsets.{" "}<br></br><br></br>
               {
-                "Deep inside, I’ve always loved building stuff and since I started my study, my main tools are Raspberry, Arduino & my computers."
+                "I am working in a men world and I am not afraid to show that women can also do the job."
               }<br></br><br></br>
               {
                 "I was more of a Python fan few months ago, working on Data sciences & signal processing but I’ve recently been attracted by web & app development and started developing in Javascript with ReactJS, NodeJS & React Native."
@@ -101,35 +101,22 @@ class Home extends Component {
         >
               <div
                 style={{
-                  width: "25%",
+                  display:'flex',
+                  flexDirection:'row',
+                  justifyContent:'center',
                 }}
               >
-                <a href="https://www.instagram.com/al_rielle/">
-                  <img src={IG} style={{ width: "25%",paddingLeft:'37%' }} />
+                <a href="https://www.instagram.com/al_rielle/" style={{width: '5%', padding:15}}>
+                  <img src={IG} style={{ width: "50%", }} />
                 </a>
-              </div>
-              <div style={{ width: "25%" }}>
-                <a href="https://twitter.com/Cyri_official">
-                  <img src={twitter} style={{ width: "25%",paddingLeft:'37%' }} />
+                <a href="https://twitter.com/Cyri_official" style={{width: '5%',padding:15}}>
+                  <img src={twitter} style={{ width: "50%", }} />
                 </a>
-              </div>
-              <div
-                style={{
-                  width: "25%",
-
-                }}
-              >
-                <a href="https://github.com/CyrielleAlbert">
-                  <img src={github} style={{ width: "25%",paddingLeft:'37%' }} />
+                <a href="https://github.com/CyrielleAlbert" style={{width: '5%',padding:15}}>
+                  <img src={github} style={{ width: "50%", }} />
                 </a>
-              </div>
-              <div
-                style={{
-                  width: "25%",
-                }}
-              >
-                <a href="https://www.linkedin.com/in/cyriellealbert/">
-                  <img src={LinkedinLogo} style={{ width: "25%",paddingLeft:'37%' }} />
+                <a href="https://www.linkedin.com/in/cyriellealbert/" style={{width: '5%',padding:15}}>
+                  <img src={LinkedinLogo} style={{ width: "50%", }} />
                 </a>
               </div>
         </div>
