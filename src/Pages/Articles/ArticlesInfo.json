@@ -2,8 +2,15 @@
     "startupLife": {
         "title": "How working in a young Startup made me gain the equivalent of 5  years of experience.",
         "author": "Cyrielle Albert",
-        "createdAt": "December 19, 2020",
+        "createdAt": "November 28, 2020",
         "pathMd": "/Articles/StartupLife.md",
         "imagePath":"/Images/StartupLife.jpg"
+    },
+    "liveAbroad":{
+        "title": "Top 5 reasons to live abroad.",
+        "author": "Cyrielle Albert",
+        "createdAt": "December 19, 2020",
+        "pathMd": "/Articles/LiveAbroad.md",
+        "imagePath":"/Images/LiveAbroad.jpg"
     }
 }

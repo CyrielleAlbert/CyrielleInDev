@@ -75,7 +75,7 @@ class Writings extends Component {
               return (
                 <NavLink
                   to={{
-                    pathname: "/Blog/" + { id },
+                    pathname: "/Blog/"+id,
                   }}
                   style={{ textDecoration: "none" }}
                 >
