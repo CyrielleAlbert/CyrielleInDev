@@ -1,5 +1,5 @@
 # How working in a young Startup made me gain the equivalent of 5 years of experience.
-### by Cyrielle Albert, September 20th, 2020
+### by Cyrielle Albert, November 28th, 2020
 &nbsp
 
 I have been working in a start-up for exactly 17 months and I can assure you that I have learned more during these 1.5 years than during the 3 years of my bachelor.
