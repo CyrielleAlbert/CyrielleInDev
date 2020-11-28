@@ -104,7 +104,7 @@ class Project extends Component {
               url={"Cyriellealbert.fr/Projects/" + this.state.id}
               title={"Cyrielle Albert: " + this.state.title}
               summary={"Cyrielle posted a new project."}
-              source="Cyriellealbert.fr aka Cyrielle In Dev"
+              source="Cyriellealbert.fr"
             >
               <LinkedinIcon round></LinkedinIcon>
             </LinkedinShareButton>
