@@ -12,7 +12,7 @@ If you have never worked in a start-up, you probably have in mind the cli
 
 If you have been part of one before, you know that besides that, is hidden many extra hours, cry (maybe) and hard times. For me, that is why I learned so much.
 
-## **ONE JOB, SEVERALS TITLES**
+## ONE JOB, SEVERALS TITLES
 ![Alt Text](https://media.giphy.com/media/Nx85vtTY70T3W/giphy.gif)
 
 I realised the job title did not put me in a box.
@@ -42,7 +42,7 @@ Today, I think it was a stupid mind-set. No one knows everything. Unfort
 
 After some time, I started to realise that I successfully did bunch of hard tasks. That is when I started to commit to more and more unknown tasks.
 
-It made me face so much difficulty. I spent so much hour on Stack Overflow begging for help. I did it; I even got better at asking for help.
+It made me face so many difficulties. I spent so many jours on Stack Overflow begging for help. I did it. I even got better at asking for help.
 
 If I had never decided to work on new things, I would never have learned so much. The only way to loose, it to decide to stay in the comfort zone. Now, I would say, that before working in a start-up, you have to be prepared for working on new things.
 
@@ -67,4 +67,4 @@ It is a skill I am proud to have and show now.
 
 ## Conclusion
 
-These years have been for me, the best way to evaluate the skills I developed during my study and finally use those on a business project. It has been tiring I cannot deny it but it pushed me so out of my comfort zone than I learned unexpected things, and gained confidence for the future. Even if I did not mentioned them, it would not have been possible without the Team I worked with, a source of support and motivation every single day.
+These years have been for me, the best way to evaluate the skills I developed during my study and finally use those on a business project. It has been tiring I cannot deny it but it pushed me so out of my comfort zone that I learned unexpected things, and gained confidence for the future. Even if I did not mentioned them, it would not have been possible without the Team I worked with, a source of support and motivation every single day.
