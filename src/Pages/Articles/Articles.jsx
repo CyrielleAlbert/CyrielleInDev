@@ -146,8 +146,8 @@ class Articles extends Component {
                 }}
               >
                 <FacebookShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
-                  quote={"Cyrielle posted a new article."}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
+                  quote={"Cyrielle just shared a new article."}
                   hashtag="#WomenInTech"
                 >
                   <FacebookIcon round></FacebookIcon>
@@ -161,9 +161,9 @@ class Articles extends Component {
                 }}
               >
                 <LinkedinShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   title={"Cyrielle Albert: " + this.state.title}
-                  summary={"Cyrielle posted a new article."}
+                  summary={"Cyrielle just shared a new article."}
                   source="Cyriellealbert.fr"
                 >
                   <LinkedinIcon round></LinkedinIcon>
@@ -177,7 +177,7 @@ class Articles extends Component {
                 }}
               >
                 <RedditShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   title={"Cyrielle Albert: " + this.state.title}
                 >
                   <RedditIcon round></RedditIcon>
@@ -191,7 +191,7 @@ class Articles extends Component {
                 }}
               >
                 <TelegramShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   title={"Cyrielle Albert: " + this.state.title}
                 >
                   <TelegramIcon round></TelegramIcon>
@@ -206,9 +206,9 @@ class Articles extends Component {
                 }}
               >
                 <TwitterShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
-                  title={"Cyrielle Albert: " + this.state.title}
-                  hashtags={["#WomenInTech"]}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
+                  title={"@Cyri_official: " + this.state.title}
+                  hashtags={["WomenInTech"]}
                   related={["@Cyri_official"]}
                 >
                   <TwitterIcon round></TwitterIcon>
