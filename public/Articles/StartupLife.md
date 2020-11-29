@@ -42,7 +42,7 @@ Today, I think it was a stupid mind-set. No one knows everything. Unfort
 
 After some time, I started to realise that I successfully did bunch of hard tasks. That is when I started to commit to more and more unknown tasks.
 
-It made me face so many difficulties. I spent so many jours on Stack Overflow begging for help. I did it. I even got better at asking for help.
+It made me face so many difficulties. I spent so many hours on Stack Overflow begging for help. I did it. I even got better at asking for help.
 
 If I had never decided to work on new things, I would never have learned so much. The only way to loose, it to decide to stay in the comfort zone. Now, I would say, that before working in a start-up, you have to be prepared for working on new things.
 
