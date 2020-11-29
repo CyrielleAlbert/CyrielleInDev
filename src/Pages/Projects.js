@@ -24,50 +24,51 @@ class Projects extends Component {
   render() {
     return (
       <div style={{ backgroundColor: "#F5F5F5" }}>
-        <div
-          style={{
-            padding: 10,
-            font: "Montserrat",
-            fontSize: 30,
-            color: "black",
-            width: "100%",
-            minHeight: "6vh",
-            boxSizing: "border-box",
-            display: "flex",
-            alignItems: "center",
-            flexDirection: "row",
-            backgroundColor: "#F5F5F5",
-            transition: "all 0.7s ease-in",
-            letterSpacing: 5,
-            position: "fixed",
-            boxShadow: '4px 4px 30px rgba(0, 0, 0, 0.25)'
-
-          }}
-        >
-          <NavLink
-            to="/"
+          <div
             style={{
-              width: "50%",
-              textDecoration: "none",
+              padding: 10,
+              font: "Montserrat",
+              fontSize: 30,
               color: "black",
-              fontWeight: "bolder",
+              width: "100%",
+              minHeight: "6vh",
+              boxSizing: "border-box",
+              display: "flex",
+              alignItems: "center",
+              flexDirection: "row",
+              backgroundColor: "#F5F5F5",
+              transition: "all 0.7s ease-in",
+              letterSpacing: 5,
+              position: "fixed",
+              boxShadow: "4px 4px 30px rgba(0, 0, 0, 0.25)",
             }}
           >
-            👩🏻‍💻Cyrielle Albert
-          </NavLink>
-          <NavLink
-            to="/Projects"
-            style={{ width: "25%", textDecoration: "none", color: "black" }}
-          >
-            🧠Projects
-          </NavLink>
-          <NavLink
-            to="/Blog"
-            style={{ width: "25%", textDecoration: "none", color: "black" }}
-          >
-            📝Blog
-          </NavLink>
-        </div>
+            <NavLink
+              to="/"
+              style={{
+                width: this.state.screenWidth>800? "50%":"100%",
+                textDecoration: "none",
+                color: "black",
+                fontWeight: "bolder",
+              }}
+            >
+              👩🏻‍💻Cyrielle Albert
+            </NavLink>
+            {this.state.screenWidth >800 && (
+            <NavLink
+              to="/Projects"
+              style={{ width: "25%", textDecoration: "none", color: "black" }}
+            >
+              🧠Projects
+            </NavLink>)}
+            {this.state.screenWidth >800 && (
+            <NavLink
+              to="/Blog"
+              style={{ width: "25%", textDecoration: "none", color: "black" }}
+            >
+              📝Blog
+            </NavLink>)}
+          </div>
         <div
           style={{
             fontSize: 20,

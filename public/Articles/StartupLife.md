@@ -4,7 +4,7 @@
 
 I have been working in a start-up for exactly 17 months and I can assure you that I have learned more during these 1.5 years than during the 3 years of my bachelor.
 
-[To explain the context, in 2016, I decided to start an engineering degree at ESEO in France. In the beginning of my 4th year, I decided to join a young start-up as a software engineer intern for 5 months, it appears that they liked my work and offered me a job as software engineer, which I accepted.
+[To explain the context, in 2016, I decided to start an engineering degree at ESEO in France. In the beginning of my 4th year, I decided to join a young start-up as a software engineer intern for 5 months. It appears that they liked my work and offered me a job as software engineer, which I accepted.
 
 So I decided to pause my study to work full time for a bit more than one year. The reason for that is that I was convinced that this additional year of working there would help me become much more confident, experienced and knowledgeable. Today I, for sure, do not regret a second of it.]
 
