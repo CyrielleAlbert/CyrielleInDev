@@ -12,7 +12,6 @@ class Projects extends Component {
   }
   updateScreenSize = () => {
     this.setState({ screenWidth: window.innerWidth });
-    console.log(this.state.screenWidth);
   };
   componentDidMount() {
     window.addEventListener("resize", this.updateScreenSize);
@@ -101,15 +100,12 @@ class Projects extends Component {
             }}
           >
             {Object.keys(ProjectsInfo).map((id) => {
-              console.log(id);
               return (
                 <div
                   onMouseEnter={() => {
                     this.setState({ show: { [id]: true } });
-                    console.log(this.state.show);
                   }}
                   onMouseLeave={() => {
-                    console.log(this.state.show);
                     this.setState({ show: { [id]: false } });
                   }}
                   style={{
@@ -188,7 +184,6 @@ class Projects extends Component {
             }}
           >
             {Object.keys(ProjectsInfo).map((id) => {
-              console.log(id);
               return (
                 <div
                   style={{

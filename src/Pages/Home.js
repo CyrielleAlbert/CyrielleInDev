@@ -17,7 +17,6 @@ class Home extends Component {
   }
   updateScreenSize = () => {
     this.setState({ screenWidth: window.innerWidth });
-    console.log(this.state.screenWidth);
   };
   componentDidMount() {
     window.addEventListener("resize", this.updateScreenSize);

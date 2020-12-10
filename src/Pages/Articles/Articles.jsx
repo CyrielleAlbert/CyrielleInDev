@@ -46,7 +46,6 @@ class Articles extends Component {
     fetch(ArticlesInfo[id].pathMd)
       .then((response) => response.text())
       .then((text) => {
-        console.log("data fetched");
         this.setState({ terms: text });
       });
     

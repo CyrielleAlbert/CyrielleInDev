@@ -28,7 +28,6 @@ class Project extends Component {
 
   updateScreenSize = () => {
     this.setState({ screenWidth: window.innerWidth });
-    console.log(this.state.screenWidth);
   };
 
   componentWillUnmount() {
@@ -38,7 +37,6 @@ class Project extends Component {
   componentDidMount() {
     window.addEventListener("resize", this.updateScreenSize);
     var id = this.props.match.params.id;
-    console.log(id);
     this.setState({
       id: id,
       title: ProjectsInfo[id].title,
@@ -47,7 +45,6 @@ class Project extends Component {
     fetch(ProjectsInfo[id].pathMd)
       .then((response) => response.text())
       .then((text) => {
-        console.log("data fetched");
         this.setState({ terms: text });
       });
   }
