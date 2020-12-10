@@ -34,7 +34,7 @@ An important mindset I switched to when I started working, is to commit�
 
 Before the internship, I had only worked on a few coding projects at school but was always given and supervised by teachers.
 
-So when I started in the company, I was really lost. I did not know where or how to start, and not even what would be the different steps for building it. I had tasks I had no idea how to deal with so I usually did not want to commit.
+So when I started in the company, I was lost. I did not know where or how to start, and not even what would be the different steps for building it. I had tasks I had no idea how to deal with so I usually did not want to commit.
 
 I can remember I had this voice inside my head panicking: «What if I can't do it? What if I tell them I do not know how to do it? » I was so scared of just saying that I did not know.
 
@@ -51,11 +51,11 @@ If I had never decided to work on new things, I would never have lea
 
 Working in a start-up usually means working on an innovative product.
 
-Our first step was to validate the business part of the idea, prove that people are interested and that we could earn enough money on it. In other words, we needed to be faster than our potential competitors were, but at the same time, we could not really present a bad product, which would not attract clients.
+Our first step was to validate the business part of the idea, prove that people are interested and that we could earn enough money on it. In other words, we needed to be faster than our potential competitors were, but at the same time, we could not present a bad product, which would not attract clients.
 
 So to make sure we produced high-quality work, fast enough we have been testing different management methods like Agile or Scrum, which were, of course, adapted to the team, and project management tools like Jira or Confluence.
 
-Even if they are not mentioned in the job role, it has been a full part of my daily tasks. It actually took me some time to get used to all of those and not waste time trying to figure out how it works.
+Even if they are not mentioned in the job role, it has been a full part of my daily tasks. It took me some time to get used to all of those and not waste time trying to figure out how it works.
 
 In parallel, I worked on my soft skills as well, so that I could become more productive and fit better with the others, with the help of the team of course.
 
