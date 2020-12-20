@@ -25,13 +25,13 @@ It's is interesting to see how fast you can change your habits. In France, I was
 Here is my top 10 of the food I discovered in Norway:
 
 - Reindeer meat burger with raspberry jam
-- Knakkebrod with Kaviar and Norwegia
-- Grottrice
+- Knackebrod with caviar and Norwegia cheese
+- Riskrem
 - Meatballs with mashed potatoes
 - Jarlsberg cheese
 - Taco Friday
 - Kjeks og ost - TUC with cheese
-- KannelBoller
+- Kannelboller
 - Warm Waffles with jam and creme fraiche
 - Bred with Leverpostei
 
