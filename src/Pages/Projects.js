@@ -39,6 +39,7 @@ class Projects extends Component {
               transition: "all 0.7s ease-in",
               letterSpacing: 5,
               position: "fixed",
+              zIndex:999,
               boxShadow: "4px 4px 30px rgba(0, 0, 0, 0.25)",
             }}
           >
@@ -132,6 +133,7 @@ class Projects extends Component {
                         width: "100%",
                         opacity: "100%",
                         position: "absolute",
+                        zIndex:3,
                         top: 0,
                         right: 0,
                         width: "100%",
@@ -210,6 +212,7 @@ class Projects extends Component {
                       width: "100%",
                       opacity: "100%",
                       position: "absolute",
+                      zIndex:3,
                       top: 0,
                       right: 0,
                       width: "100%",

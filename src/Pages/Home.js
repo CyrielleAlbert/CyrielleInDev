@@ -45,6 +45,7 @@ class Home extends Component {
               transition: "all 0.7s ease-in",
               letterSpacing: 5,
               position: "fixed",
+              zIndex:999,
               boxShadow: "4px 4px 30px rgba(0, 0, 0, 0.25)",
             }}
           >
@@ -85,6 +86,7 @@ class Home extends Component {
               style={{
                 backgroundColor: "white",
                 position: "absolute",
+                zIndex:3,
                 top: "25%",
                 right: "10%",
                 width: "50%",
@@ -192,6 +194,7 @@ class Home extends Component {
               backgroundColor: "#F5F5F5",
               letterSpacing: 5,
               position: "fixed",
+              zIndex:999,
               boxShadow: "4px 4px 30px rgba(0, 0, 0, 0.25)",
             }}
           >
