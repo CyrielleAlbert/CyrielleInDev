@@ -41,6 +41,6 @@ I believe that most of my choices have been influenced by the people surrounding
 
 Going abroad is also a good way to take distance from your old like, turn the page and start focusing on the new life you are going to start. In a way, you get another chance to make your life more enjoyable and satisfying, and to experiment to find what is best for you.
 
-### #5: Extend your comfort zone
+### #5: Expend your comfort zone
 
-If like me you are tired of always feeling comfortable and want to extend your comfort zone, living in a foreign country is perfect. For all the reasons I mentioned before, you'll push your limits and grow up. It's not an easy thing but it's such satisfying when you feel at home in a new country.
+If like me you are tired of always feeling comfortable and want to expend your comfort zone, living in a foreign country is perfect. For all the reasons I mentioned before, you'll push your limits and grow up. It's not an easy thing but it's so satisfying when you feel like home in a new country.
