@@ -10,7 +10,4 @@
 - [x] Add Google Analytics
 - [x] Add Writings
 - [ ] Add Projects
-- [ ] Review design
-- [ ] Add LarsKarbo
-- [ ] Add animations
 

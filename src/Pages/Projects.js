@@ -63,7 +63,7 @@ class Projects extends Component {
             </NavLink>)}
             {this.state.screenWidth >800 && (
             <NavLink
-              to="/Blog"
+              to="/blog"
               style={{ width: "25%", textDecoration: "none", color: "black" }}
             >
               📝Blog

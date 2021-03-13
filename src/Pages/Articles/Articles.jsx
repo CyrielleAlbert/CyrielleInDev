@@ -95,7 +95,7 @@ class Articles extends Component {
               🧠Projects
             </NavLink>
             <NavLink
-              to="/Blog"
+              to="/blog"
               style={{ width: "25%", textDecoration: "none", color: "black" }}
             >
               📝Blog
@@ -304,7 +304,7 @@ class Articles extends Component {
                 }}
               >
                 <FacebookShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   quote={"Cyrielle posted a new article."}
                   hashtag="#WomenInTech"
                 >
@@ -319,7 +319,7 @@ class Articles extends Component {
                 }}
               >
                 <LinkedinShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   title={"Cyrielle Albert: " + this.state.title}
                   summary={"Cyrielle posted a new article."}
                   source="Cyriellealbert.fr"
@@ -335,7 +335,7 @@ class Articles extends Component {
                 }}
               >
                 <RedditShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   title={"Cyrielle Albert: " + this.state.title}
                 >
                   <RedditIcon round></RedditIcon>
@@ -349,7 +349,7 @@ class Articles extends Component {
                 }}
               >
                 <TelegramShareButton
-                  url={"Cyriellealbert.fr/Blog/" + this.state.id}
+                  url={"Cyriellealbert.fr/blog/" + this.state.id}
                   title={"Cyrielle Albert: " + this.state.title}
                 >
                   <TelegramIcon round></TelegramIcon>
