@@ -15,6 +15,8 @@ import {
   TwitterIcon,
 } from "react-share";
 
+const gfm = require('remark-gfm')
+
 class Project extends Component {
   constructor(props) {
     super(props);
@@ -112,7 +114,7 @@ class Project extends Component {
               }}
             >
               <img src={this.state.imagePath} width={"100%"} />
-              <ReactMarkdown source={this.state.terms} />
+              <ReactMarkdown remarkPlugins={[gfm]} children={this.state.terms} skipHtml={false} ></ReactMarkdown>
             </div>
             <div
               style={{
@@ -272,7 +274,7 @@ class Project extends Component {
               }}
             >
               <img src={this.state.imagePath} width={"100%"} />
-              <ReactMarkdown source={this.state.terms} skipHtml={'false'}/>
+              <ReactMarkdown  remarkPlugins={[gfm]}  children={this.state.terms} skipHtml={false}></ReactMarkdown>
             </div>
             <div
               style={{
