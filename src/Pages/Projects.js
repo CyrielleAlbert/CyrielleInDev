@@ -63,7 +63,7 @@ class Projects extends Component {
             </NavLink>)}
             {this.state.screenWidth >800 && (
             <NavLink
-              to="/Blog"
+              to="/blog"
               style={{ width: "25%", textDecoration: "none", color: "black" }}
             >
               📝Blog
@@ -97,7 +97,7 @@ class Projects extends Component {
               display: "flex",
               flexWrap: "wrap",
               alignItems: "center",
-              justifyContent: "center",
+              justifyContent: "left",
             }}
           >
             {Object.keys(ProjectsInfo).map((id) => {
@@ -113,7 +113,7 @@ class Projects extends Component {
                     marginBottom: 50,
                     marginLeft: 10,
                     marginRight: 10,
-                    flex: "1 1 30%",
+                    width:'30%',
                     textAlign: "center",
                     position: "relative",
                     boxShadow: "0px 4px 13px rgba(0, 0, 0, 0.25)",

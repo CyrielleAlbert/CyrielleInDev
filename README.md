@@ -9,5 +9,4 @@
 - [x] Add Writings
 - [x] Review design
 - [ ] Add Projects
-- [ ] Add animations
 

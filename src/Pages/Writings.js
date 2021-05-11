@@ -43,7 +43,7 @@ class Writings extends Component {
             🧠Projects
           </NavLink>
           <NavLink
-            to="/Blog"
+            to="/blog"
             style={{ width: "25%", textDecoration: "none", color: "black" }}
           >
             📝Blog
@@ -75,7 +75,7 @@ class Writings extends Component {
               return (
                 <NavLink
                   to={{
-                    pathname: "/Blog/"+id,
+                    pathname: "/blog/"+id,
                   }}
                   style={{ textDecoration: "none" }}
                 >
@@ -86,7 +86,7 @@ class Writings extends Component {
                       marginRight: "20%",
                       marginLeft: "20%",
                       marginTop: 200,
-                      boxShadow: "0px 0px 10px #C4C2C0",
+                      boxShadow: "0px 0px 10px black",
                       marginBottom: 50,
                     }}
                   >

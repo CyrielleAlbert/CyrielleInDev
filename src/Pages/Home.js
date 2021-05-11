@@ -45,7 +45,7 @@ class Home extends Component {
               transition: "all 0.7s ease-in",
               letterSpacing: 5,
               position: "fixed",
-              zIndex:999,
+              zIndex: 999,
               boxShadow: "4px 4px 30px rgba(0, 0, 0, 0.25)",
             }}
           >
@@ -67,7 +67,7 @@ class Home extends Component {
               🧠Projects
             </NavLink>
             <NavLink
-              to="/Blog"
+              to="/blog"
               style={{ width: "25%", textDecoration: "none", color: "black" }}
             >
               📝Blog
@@ -86,7 +86,7 @@ class Home extends Component {
               style={{
                 backgroundColor: "white",
                 position: "absolute",
-                zIndex:3,
+                zIndex: 3,
                 top: "25%",
                 right: "10%",
                 width: "50%",
@@ -117,12 +117,12 @@ class Home extends Component {
                 <br></br>
                 Don't forget to check out my{" "}
                 <NavLink to="/Projects">projects</NavLink> and my{" "}
-                <NavLink to="/Blog">blog</NavLink>!
+                <NavLink to="/blog">blog</NavLink>!
               </p>
             </div>
           </div>
-          <div style={{backgroundColor:'#F5F5F5', textAlign:'center', padding:20 , font:'Montserrat', fontSize:30}}> You asked for it on Instagram, here is the video of how I (we) fixed the screen.😊
-            <ReactPlayer url="https://www.youtube.com/watch?v=r2q_NygHt4o" style={{width:'50%',marginLeft:'25%',marginTop:20, marginBottom:20,}}/>
+          <div style={{ backgroundColor: '#F5F5F5', textAlign: 'center', padding: 20, font: 'Montserrat', fontSize: 30 }}> You asked for it on Instagram, here is the video of how I (we) fixed the screen.😊
+            <ReactPlayer url="https://www.youtube.com/watch?v=r2q_NygHt4o" style={{ width: '50%', marginLeft: '25%', marginTop: 20, marginBottom: 20, }} />
           </div>
           <div
             style={{
@@ -181,7 +181,7 @@ class Home extends Component {
       );
     } else {
       return (
-        <div style={{ backgroundColor: "#F5F5F5",display:"flex",flexDirection:'column' }}>
+        <div style={{ backgroundColor: "#F5F5F5", display: "flex", flexDirection: 'column' }}>
           <div
             style={{
               padding: 10,
@@ -194,7 +194,7 @@ class Home extends Component {
               backgroundColor: "#F5F5F5",
               letterSpacing: 5,
               position: "fixed",
-              zIndex:999,
+              zIndex: 999,
               boxShadow: "4px 4px 30px rgba(0, 0, 0, 0.25)",
             }}
           >
@@ -221,7 +221,7 @@ class Home extends Component {
             <img src={"/Images/cyriOpenBCI.png"} width={"100%"} />
             <div
               style={{
-                margin:0,
+                margin: 0,
                 backgroundColor: "white",
                 width: "90%",
                 font: "Montserrat",
@@ -261,10 +261,10 @@ class Home extends Component {
               marginLeft: "30%",
               backgroundColor: "white",
               textAlign: "center",
-              padding:10,
+              padding: 10,
               filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
-              borderRadius:12.5,
-              fontSize:20
+              borderRadius: 12.5,
+              fontSize: 20
             }}
           >
             <NavLink
@@ -275,16 +275,16 @@ class Home extends Component {
             </NavLink>
           </div>
           <div style={{
-              width: "40%",
-              backgroundColor: "white",
-              textAlign: "center",
-              margin:20,
-              marginLeft: "30%",
-              padding:10,
-              filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
-              borderRadius:12.5,
-              fontSize:20
-            }}>
+            width: "40%",
+            backgroundColor: "white",
+            textAlign: "center",
+            margin: 20,
+            marginLeft: "30%",
+            padding: 10,
+            filter: "drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))",
+            borderRadius: 12.5,
+            fontSize: 20
+          }}>
             <NavLink
               to="/Blog"
               style={{ textDecoration: "none", color: "black" }}
