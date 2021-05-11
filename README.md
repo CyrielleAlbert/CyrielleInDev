@@ -9,8 +9,7 @@
 ### TO DO:
 - [x] Add Google Analytics
 - [x] Add Writings
+- [x] Review design
 - [ ] Add Projects
-- [ ] Review design
-- [ ] Add LarsKarbo
 - [ ] Add animations
 
