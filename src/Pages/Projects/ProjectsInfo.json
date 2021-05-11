@@ -1,4 +1,16 @@
 {
+    "CVRPredictor":{
+        "title":"Cardiovascular Risk Predictor",
+        "tags":["Code","Python","Data Sciences"],
+        "pathMd":"/Projects/CVRPredictor.md",
+        "imagePath":"/Images/CVRPredictor.png"
+    },
+    "smovies":{
+        "title": "Smovies",
+        "tags":["Code","WebApp"],
+        "pathMd":"/Projects/smovies.md",
+        "imagePath":"/Images/Smovies.png"
+    },
     "telegramBots": {
         "title": "Telegram Bots",
         "tags":["Code"],
