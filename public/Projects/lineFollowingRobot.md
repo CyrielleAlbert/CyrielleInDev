@@ -4,7 +4,7 @@
 
 As a school project, I developed with another student a line following Robot. This idea could be used in industies to automate transports of products or parts of products. 
 
-## The techology used
+## The techologies used
 
  - Microprocessor: ST Blue Pill - STM32 based
  - PCB Design: Altium designer
