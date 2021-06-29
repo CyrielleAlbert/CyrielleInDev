@@ -33,4 +33,4 @@ Useby was a project we built in parallel to our MSc in Engineering. We tried to 
 
 ## A Teamwork
 
-I did not work alone on this project. I worked with my friend Pierre Bertier who I also studied with. Pierre worked more on the technical side while I was working more on the business side of the project.
+I did not work alone on this project. I worked with my friend [Pierre Bertier](https://www.linkedin.com/in/pierre-bertier/) who I also studied with. Pierre worked more on the technical side while I was working more on the business side of the project.
