@@ -1,10 +1,10 @@
-# School Project - Builing a Line Following Robot
+# School Project - Building a Line Following Robot
 
 ## The concept
 
-As a school project, I developed with another student a line following Robot. This idea could be used in industies to automate transports of products or parts of products. 
+As a school project, I developed with another student a line following Robot. This idea could be used in industries to automate the transports of products or parts of products. 
 
-## The techologies used
+## The technologies used
 
  - Microprocessor: ST Blue Pill - STM32 based
  - PCB Design: Altium designer
@@ -17,10 +17,10 @@ As a school project, I developed with another student a line following Robot. Th
 ### 1. Define the functionalities 
 The main task of the robot is to go from A to B following a line.
 We added to that some automation:
-        - It leaves A only when an objet is put on.
-        - It detects obtacles and stops in front of one.
-        - It detects different colors and adapts to it (Red is B | Green is A | other colors can influence its speed).
-        - It automatically go back to its initial place A.
+        - It leaves A only when an object is put on.
+        - It detects obstacles and stops in front of one.
+        - It detects different colors and adapts to them (Red is B | Green is A | other colors can influence its speed).
+        - It automatically goes back to its initial place A.
     
 ### 2. Choose the components
 
@@ -35,7 +35,7 @@ We added to that some automation:
 ## The result
 Due to some issues with the PCB and the components, we were not able to finish the project in time.
 The obstacle detector did not work, as well as the object detector on the top of it. 
-The robot was able to follow the lines and change its trajectory depending on the line, however it needed a rigorous initialisation of the thresholds for the detection of the borders.
+The robot was able to follow the lines and change its trajectory depending on the line, however it needed a rigorous initialization of the thresholds for the detection of the borders.
 
 [See the result here.](https://youtu.be/qNbiEQQJYqI)
 
