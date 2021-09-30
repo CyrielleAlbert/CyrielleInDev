@@ -1,32 +1,44 @@
 {
-    "CVRPredictor":{
-        "title":"Cardiovascular Risk Predictor",
-        "tags":["Code","Python","Data Sciences"],
-        "pathMd":"/Projects/CVRPredictor.md",
-        "imagePath":"/Images/CVRPredictor.png"
+    "protolk": {
+        "title": "Protolk - A Speed-Meeting web app",
+        "tags": ["Code", "WebApp"],
+        "pathMd": "/Projects/Protolk.md",
+        "imagePath": "/Images/CVRPredictor.png"
     },
-    "smovies":{
+    "GetMyDose": {
+        "title": "GetMyDose - France",
+        "tags": ["Code", "Python"],
+        "pathMd": "/Projects/GetMyDose.md",
+        "imagePath": "/Images/CVRPredictor.png"
+    },
+    "CVRPredictor": {
+        "title": "Cardiovascular Risk Predictor",
+        "tags": ["Code", "Python", "Data Sciences"],
+        "pathMd": "/Projects/CVRPredictor.md",
+        "imagePath": "/Images/CVRPredictor.png"
+    },
+    "smovies": {
         "title": "Smovies",
-        "tags":["Code","WebApp"],
-        "pathMd":"/Projects/smovies.md",
-        "imagePath":"/Images/Smovies.png"
+        "tags": ["Code", "WebApp"],
+        "pathMd": "/Projects/smovies.md",
+        "imagePath": "/Images/Smovies.png"
     },
     "telegramBots": {
         "title": "Telegram Bots",
-        "tags":["Code"],
+        "tags": ["Code", "Python"],
         "pathMd": "/Projects/telegramBots.md",
-        "imagePath":"/Images/TelegramBots.png"
+        "imagePath": "/Images/TelegramBots.png"
     },
-    "lineFollowingRobot":{
+    "lineFollowingRobot": {
         "title": "Line Following Robots",
-        "tags":["Electronics","Code"],
+        "tags": ["Electronics", "Code"],
         "pathMd": "/Projects/lineFollowingRobot.md",
-        "imagePath":"/Images/LineFollowingRobot.png"
+        "imagePath": "/Images/LineFollowingRobot.png"
     },
-    "useby":{
+    "useby": {
         "title": "Useby - Startup Project",
-        "tags":["Startup"],
+        "tags": ["Startup"],
         "pathMd": "/Projects/useby.md",
-        "imagePath":"/Images/Useby.png"
+        "imagePath": "/Images/Useby.png"
     }
 }
