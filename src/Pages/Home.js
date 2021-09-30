@@ -236,11 +236,11 @@ class Home extends Component {
                             { fontSize: 30 }
                         } > Hi, there!🖖 </p> <p >
                             I am an electronics & software engineer and I am passionate about new Technologies.I worked on Neurosciences and developed neurofeedback algorithms
-                            for sleep, using EEG headsets. {" "} <br > </br> <br > </br> {
+                            for sleep, using EEG headsets. {" "} <br /> <br /> {
                                 "I am working in a men world and I am not afraid to show that women can also do the job."
-                            } <br > </br> <br > </br> {
+                            } <br /> <br /> {
                                 "I was more of a Python fan few months ago, working on Data sciences & signal processing but I’ve recently been attracted by web & app development and started developing in Javascript with ReactJS, NodeJS & React Native."
-                            } <br > </br> <br > </br>
+                            } <br /> <br />
                             Don 't forget to check out my{" "} <NavLink to="/Projects" > projects </NavLink> and my{" "}  <NavLink to="/Blog" > blog </NavLink>!
                         </p >
                     </div>
